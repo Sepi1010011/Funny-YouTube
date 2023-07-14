@@ -1,0 +1,29 @@
+.Sidebar {
+  position: fixed;
+  left: 0;
+  top: 73px;
+  bottom: 0;  
+  width: 100px;
+  background-color: white;
+  z-index: 200;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.Side-Link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 74px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.Side-Link img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 6px;
+}
+
+

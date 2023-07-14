@@ -1,0 +1,151 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 73px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(228, 228, 228);
+}
+
+.Right-section {
+  display: flex;
+  width: 180px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.Navigation {
+  width: 30px;
+  height: 30px;
+  transition: 15ms;
+}
+
+.Navigation:hover {
+  cursor: pointer;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+
+}
+
+.Video-upload {
+  width: 30px;
+  height: 30px;
+}
+
+.Notification {
+  width: 30px;
+  height: 30px;
+}
+
+.notification-contianer {
+  position: relative;
+}
+
+.notification-count {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: rgb(200, 0, 0);
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 66px;
+}
+
+.My-channel-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Middle-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: 500px;
+  margin-right: 60px;   
+  margin-left: 70px;
+  margin-bottom: 3px;
+}
+
+.Search-box {
+  flex: 1;
+  height: 40px;
+  border: 1px solid rgb(102, 102, 102);
+  font-size: 18px;
+  border-radius: 3px;
+  margin-top: 5px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+
+.Search-box::placeholder {
+  font-family: Roboto,Arial;
+  font-size: 16px;
+}
+
+.Search-Icon-button {
+  width: 65px;
+  height: 44px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 4px;
+  padding: 0 0;
+  border: 1px solid;
+  margin-top: 5px;
+  margin-left: -1px;
+}
+
+.Search-Icon {
+  width: 50px;
+  height: 40px;
+}
+
+.Micro {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgb(245, 245, 245);
+  padding: 3px 3px;
+  margin-left: 25px;
+}
+
+.Left-section {
+  display: flex;
+  flex-direction: row;
+  z-index: -7;
+}
+.menu {
+  width: 35px;
+  height: 35px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.menu,.Search-Icon,.Micro,.Youtube-Icon,.Video-upload,.Notification,.My-channel-picture:hover {
+  cursor: pointer;
+}
+
+.Youtube-Icon {
+  width: 180px;
+  height: 77px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
